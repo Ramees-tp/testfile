@@ -1,0 +1,17 @@
+.logo a {
+  color: #00abf0;
+  border: 1px SOLID #00abf0;
+  border-radius: 50%;
+  transition: all 0.1s linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: black;
+  background-color: #00abf0;
+  border: 1px solid white;
+  box-shadow: 0px 0px 20px 0px #00abf0;
+}
