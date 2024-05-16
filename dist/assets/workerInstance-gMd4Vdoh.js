@@ -1,0 +1,1 @@
+import{a as r}from"./axios-L6U4YIEh.js";const a=r.create({baseURL:"http://34.207.143.20/api/"});a.interceptors.request.use(e=>{const t=localStorage.getItem("jwt");return t&&(e.headers.Workerauth=`Bearer ${t}`),e.withCredentials=!0,e},e=>Promise.reject(e));export{a};

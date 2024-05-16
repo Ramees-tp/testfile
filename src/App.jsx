@@ -18,7 +18,7 @@ function App() {
   const socket = useSelector(selectSocket)
   useEffect(()=>{
     if(token && !socket){
-      const socket = io.connect('http://184.73.25.154/io/');
+      const socket = io.connect('http://34.207.143.20/io/');
     // const socket = io.connect('http://localhost:9180')
     dispatch(setSocket(socket));
     return () => {
